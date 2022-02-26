@@ -1,0 +1,19 @@
+.loveButton {
+    height: 2.25rem;
+    width: 2.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+   
+    border:none;
+    background-color: var(--background-white);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: -18px;
+    box-shadow: 0px 4px 4px rgba(157, 157, 157, 0.14);
+
+    
+
+  }

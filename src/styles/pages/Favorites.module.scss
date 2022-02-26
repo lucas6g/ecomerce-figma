@@ -1,0 +1,135 @@
+
+.container{
+
+
+
+    flex: 1;
+    padding-bottom: 4.5rem;
+  
+  
+    .header {
+        height:5rem;
+        width: 100%;
+        background: linear-gradient(81.64deg, var(--yellow-button) 34.46%, var(--logo) 87.54%);
+        padding: 1rem 1rem 0 1rem;
+     
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+     
+     
+       
+        .headerContent {
+          display: flex;
+          align-items: center;
+         
+         
+          
+          div {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              margin: 0 auto;
+    
+              strong {
+                font-family: var(--montserrat);
+                font-size: 1rem;
+                font-weight: bold;
+                color: var(--background-white);
+              }
+               
+          }
+     
+          
+     
+          button {
+            background-color: transparent;
+            border: none;
+     
+          }
+     
+        }
+    
+    
+     }
+  
+    
+    .pageContent {
+      width: 100%;
+      padding: 1rem;
+      margin-top: 24px;
+     
+      
+     
+      
+     
+      h2{
+        font-family: var(--work-sans);
+        font-size: 1.125rem;
+        font-weight: 600;
+        color:var(--title);
+       
+      }
+      
+    }
+    
+    .categories {
+      width: 100%;
+      margin-top: 1rem;
+    
+      .categoriesHeader {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+        h2 {
+          font-family: var(--work-sans);
+          font-size: 1.125rem;
+          font-weight: 600;
+          color:var(--title);
+    
+    
+    
+    
+        }
+    
+        a {
+          font-family: var(--work-sans);
+          font-size: 0.75rem;
+          font-weight: 600;
+          color:var(--text-details);
+    
+          display: flex;
+          align-items: center;
+          svg {
+            margin-left: 2px;
+          }
+          
+        }
+    
+    
+      }
+    
+      
+    
+    }
+    
+    
+    .featured {
+      display: grid;
+      width: 100%;
+      grid-template-columns: repeat(2,1fr);
+     
+      column-gap: 16px;
+      row-gap: 24px;
+  
+      
+    
+     
+    }
+    
+   
+    
+  }
+  

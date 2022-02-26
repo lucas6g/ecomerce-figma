@@ -1,0 +1,15 @@
+.categoriesScroll {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    
+        gap: 16px;
+
+    &::-webkit-scrollbar {
+      width: 0;
+    }
+
+    
+
+  }

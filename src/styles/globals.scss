@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+// de 100 a mil nivel da cor
+:root {
+  --background-gray: #F3F3F3;
+  --red-price: #D40000;
+  --text-details:#ACACAC;
+  --yellow-like:#EAA92A;
+  --background-white:#FFFFFF;
+  --description:#464646;
+  --title:#000000;
+  --heart-border:#626262;
+  --star:#EAA92A;
+  --placeholder:#ACACAC;
+  --logo:#FF7A00;
+  --yellow-button:#FFB800;
+  --success: #03A600;
+  --item-info: #979797;
+  --yellow-arrow:#F2C94C;
+
+  --montserrat:  Montserrat, sans-serif;
+  --sen:  Sen, sans-serif;
+  --work-sans:  Work Sans, sans-serif;
+  
+  
+  
+ 
+}
+
+
+body {
+  background-color:var(--background-gray);
+}
+
+
+
+
+
+button {
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: var(--work-sans);
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,46 @@
+
+    .link {
+        text-decoration: none;
+   
+        z-index: 2;
+        position: relative;
+        
+       
+      
+        
+        .categorieItem {
+          
+          width: 5.5rem;
+          height: 5.5rem;
+          border-radius:8px;
+        
+       
+          
+           position: relative;
+        background: linear-gradient(78.51deg, rgba(255, 92, 0, 0.22) -22.54%, rgba(0, 0, 0, 0.415) 123.66%);
+          
+          display: flex;
+          justify-content: center;
+          align-items: center;
+    
+          
+            text-decoration: none;
+            font-family: var(--work-sans);
+            font-size: 1rem;
+            font-weight: 600;
+            color:var(--background-white);
+            text-align: center;
+
+            z-index: 1;
+          
+           
+            
+            
+          }
+          .categoriesImage {
+            z-index: -20;
+            
+            border-radius:8px;
+            
+          }
+      }

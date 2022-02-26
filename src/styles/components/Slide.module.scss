@@ -1,0 +1,44 @@
+.slide {
+    width: 100%;
+    height: 7.1875rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 16px;
+
+     background:  linear-gradient( 265.52deg, rgba(255, 122, 0, 0.33) -1.7%, rgba(0, 0, 0, 0.76) 81.64%), url('../../../public/images/womem.png');
+    border-radius: 8px;
+    
+    background-repeat: no-repeat;
+    background-position: 20% 28%;
+    background-size: cover;
+
+    margin-top: 1.5rem;
+
+  .slideTitle{
+      font-family: var(--work-sans);
+      font-size: 1.5rem;
+      font-weight: 500;
+      color:var(--background-white);
+    }
+   
+
+    a{
+      display: flex;
+      align-items: flex-end;  
+      
+      
+      font-family: var(--work-sans);
+      font-size: 1rem;
+      font-weight: 500;
+      color:var(--yellow-like);
+
+      span {
+        margin-right: 2px;
+      }
+
+     
+    }
+
+  }

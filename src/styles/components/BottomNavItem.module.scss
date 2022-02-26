@@ -1,0 +1,39 @@
+.tabBarItem{
+     
+    a {
+      display: flex;
+      
+      flex-direction: column;
+      align-items: center;
+
+
+     
+
+      .label {
+        font-family: var(--work-sans);
+        font-size: 0.75rem;
+        font-weight: 600;
+        color:var(--text-details);
+      }
+
+      
+    }
+  }
+
+  .labelActive{
+     
+   
+      
+        font-family: var(--work-sans);
+        font-size: 0.75rem;
+        font-weight: 600;
+        background: -webkit-linear-gradient(81.64deg, #FFB800 34.46%, #FF7A00 87.54%);
+       background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+      
+    
+  }
+
+
+  

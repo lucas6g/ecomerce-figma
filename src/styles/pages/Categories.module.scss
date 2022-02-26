@@ -1,0 +1,62 @@
+
+.container {
+
+  flex: 1;
+ 
+
+  .header {
+      height:5rem;
+      width: 100%;
+      background: linear-gradient(81.64deg, var(--yellow-button) 34.46%, var(--logo) 87.54%);
+      padding: 1rem 1rem 0 1rem;
+   
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+   
+   
+     
+      .headerContent {
+        display: flex;
+        align-items: center;
+       
+       
+        
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 auto;
+  
+            strong {
+              font-family: var(--montserrat);
+              font-size: 1rem;
+              font-weight: bold;
+              color: var(--background-white);
+            }
+             
+        }
+   
+        
+   
+        button {
+          background-color: transparent;
+          border: none;
+   
+        }
+   
+      }
+  
+  
+   }
+
+   .categories {
+     
+     padding: 1rem 1rem 5.75rem 1rem ;
+     display: grid;
+     grid-template-columns: 1fr;
+     margin-top: 24px;
+     row-gap: 16px;
+     
+   }
+}
